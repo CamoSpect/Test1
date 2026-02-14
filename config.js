@@ -5,7 +5,7 @@
 const CONFIG = {
     // Your Valentine's name that will appear in the title
     // Example: "Jade", "Sarah", "Mike"
-    valentineName: "Anna",
+    valentineName: "Lillie",
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
@@ -23,19 +23,19 @@ const CONFIG = {
     questions: {
         first: {
             text: "Do you like me?",                                    // First interaction
-            yesBtn: "Yes I guess",                                             // Text for "Yes" button
+            yesBtn: "Yes yes yes yes",                                             // Text for "Yes" button
             noBtn: "No ew",                                               // Text for "No" button
             secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
         },
         second: {
             text: "How much do you love me?",                          // For the love meter
-            startText: "As much as drama",                                   // Text before the percentage
+            startText: "As much as grayson",                                   // Text before the percentage
             nextBtn: "Next ❤️"                                         // Text for the next button
         },
         third: {
             text: "Will you be my Valentine?", // The big question!
-            yesBtn: "Duh",                                             // Text for "Yes" button
-            noBtn: "Nah"                                                 // Text for "No" button
+            yesBtn: "YES MY KING",                                             // Text for "Yes" button
+            noBtn: "Nah. but try clicking on me"                                                 // Text for "No" button
         }
     },
 
@@ -49,8 +49,8 @@ const CONFIG = {
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "omg Im so lucky. marry me. 😈🎉💝💖💝💓",
-        message: "You get to take me out.",
+        title: "omg Im so lucky. marry me pls. 😈🎉💝💖💝💓",
+        message: "You get a hot makeout session or a cuddle session.",
         emojis: "❤️💕"  // These will bounce around
     },
 
