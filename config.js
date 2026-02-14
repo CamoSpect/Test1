@@ -5,7 +5,7 @@
 const CONFIG = {
     // Your Valentine's name that will appear in the title
     // Example: "Jade", "Sarah", "Mike"
-    valentineName: "Daphne",
+    valentineName: "Anna",
 
     // The title that appears in the browser tab
     // You can use emojis! 💝 💖 💗 💓 💞 💕
@@ -23,19 +23,19 @@ const CONFIG = {
     questions: {
         first: {
             text: "Do you like me?",                                    // First interaction
-            yesBtn: "Yes",                                             // Text for "Yes" button
-            noBtn: "No",                                               // Text for "No" button
+            yesBtn: "Yes I guess",                                             // Text for "Yes" button
+            noBtn: "No ew",                                               // Text for "No" button
             secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
         },
         second: {
             text: "How much do you love me?",                          // For the love meter
-            startText: "As much as cream cheese and eggs!",                                   // Text before the percentage
+            startText: "As much as drama",                                   // Text before the percentage
             nextBtn: "Next ❤️"                                         // Text for the next button
         },
         third: {
             text: "Will you be my Valentine?", // The big question!
-            yesBtn: "Yes! No cap No bad ez pz lmn sqzy",                                             // Text for "Yes" button
-            noBtn: "No"                                                 // Text for "No" button
+            yesBtn: "Duh",                                             // Text for "Yes" button
+            noBtn: "Nah"                                                 // Text for "No" button
         }
     },
 
@@ -43,14 +43,14 @@ const CONFIG = {
     // They show up depending on how far they slide the meter
     loveMessages: {
         extreme: "YEAAAH THATS WHAT I LIKE 🥰",  // Shows when they go past 5000%
-        high: "Slide that mouse woman. It should be higher. 🚀😤",              // Shows when they go past 1000%
-        normal: "GO HIGHER"                           // Shows when they go past 100%
+        high: "You can go higher than this. 🚀😤",              // Shows when they go past 1000%
+        normal: "don't be mean"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "YESSSS Im so lucky. suck it cui. 😈🎉💝💖💝💓",
-        message: "You get 1 BILLION ROBUX! and me.",
+        title: "omg Im so lucky. marry me. 😈🎉💝💖💝💓",
+        message: "You get to take me out.",
         emojis: "❤️💕"  // These will bounce around
     },
 
